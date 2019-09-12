@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Testc4</string>
+    <string name="title_activity_regactivity">Regactivity</string>
+    <string name="title_activity_playactivity">Playactivity</string>
+    <string name="title_activity_accinfoactivity">Accinfoactivity</string>
+    <string name="title_activity_updateactivity">Updateactivity</string>
+    <string name="title_activity_pempadapter">pempadapter</string>
+    <string name="title_activity_gameboard">Gameboard</string>
+</resources>

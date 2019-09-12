@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_purple"
+    tools:context=".Playactivity">
+
+    <Button
+        android:id="@+id/d_btn_playgame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="69dp"
+        android:background="#ffd500"
+        android:text="PLAY"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/d_btn_accinfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="114dp"
+        android:background="#ffd500"
+        android:text="Account Info"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d_btn_playgame" />
+
+    <Button
+        android:id="@+id/d_btn_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="160dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginRight="160dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="62dp"
+        android:background="#ffd500"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d_btn_accinfo" />
+</android.support.constraint.ConstraintLayout>
